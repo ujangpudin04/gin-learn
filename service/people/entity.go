@@ -6,3 +6,8 @@ type Person struct {
 	Email  string `json:"email"`
 	Alamat string `json:"alamat"`
 }
+type PersonBook struct {
+	ID       int `json:"id"`
+	IdPerson int `json:"id_person"`
+	IdBook   int `json:"id_book"`
+}
